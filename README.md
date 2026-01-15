@@ -1,4 +1,4 @@
-<h1>🔐 Cyclic Code Encoder (GUI-Based)</h1>
+<h1>Cyclic Code Encoder (GUI-Based)</h1>
 
 <p>
 An interactive <b>GUI-based Cyclic Code Encoder</b> built using
