@@ -3,82 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Cyclic Code Encoder</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 40px;
             background-color: #f9f9f9;
+            line-height: 1.6;
         }
+
         h1, h2, h3 {
             color: #2c3e50;
         }
+
         ul {
             font-size: 16px;
         }
+
         li {
             margin-bottom: 8px;
         }
+
         img {
+            display: block;
             margin-top: 15px;
+            margin-bottom: 25px;
             border: 1px solid #ccc;
-            padding: 5px;
-            background-color: white;
+            padding: 6px;
+            background-color: #ffffff;
+            max-width: 100%;
         }
+
         code {
             background-color: #eee;
             padding: 4px 6px;
             border-radius: 4px;
+            font-size: 15px;
         }
+
         .note {
             font-size: 14px;
             color: #555;
             font-style: italic;
         }
+
+        .section {
+            margin-top: 35px;
+        }
     </style>
 </head>
 
 <body>
+
     <h1>Cyclic Code Encoder</h1>
 
     <p>
-        This project implements a <b>Cyclic Code Encoder</b> using Python.
-        The program takes input data bits and a generator polynomial and
-        produces the encoded cyclic code.
+        This project implements a <strong>Cyclic Code Encoder</strong> using Python.
+        The program encodes input data bits using a given generator polynomial
+        based on cyclic redundancy check (CRC) principles.
     </p>
 
-    <h2>Project Files</h2>
-    <ul>
-        <li>
-            <a href="REPORT%20%5BCyclic%20Code%20Encoder%5D.pdf" download>
-                Download Project Report (PDF)
-            </a>
-        </li>
-        <li>
-            <a href="2203124_2203104_AssignmentI.py" target="_blank">
-                View Python Source Code
-            </a>
-        </li>
-    </ul>
+    <div class="section">
+        <h2>Project Files</h2>
+        <ul>
+            <li>
+                <a href="https://raw.githubusercontent.com/USERNAME/Cyclic-Code-Encoder/main/REPORT%20%5BCyclic%20Code%20Encoder%5D.pdf"
+                   target="_blank">
+                    Open Project Report (PDF)
+                </a>
+            </li>
+            <li>
+                <a href="2203124_2203104_AssignmentI.py" target="_blank">
+                    View Python Source Code
+                </a>
+            </li>
+        </ul>
 
-    <p class="note">
-        Note: Please download the PDF report for proper viewing.
-    </p>
+        <p class="note">
+            Note: The report is opened using GitHub RAW view to avoid PDF rendering issues.
+        </p>
+    </div>
 
-    <h2>How to Run the Code</h2>
-    <p>
-        Run the program locally using the following command:
-    </p>
-    <p>
+    <div class="section">
+        <h2>How to Run the Code</h2>
+        <p>Run the program locally using:</p>
         <code>python 2203124_2203104_AssignmentI.py</code>
-    </p>
+    </div>
 
-    <h2>Sample Output</h2>
+    <div class="section">
+        <h2>Sample Output</h2>
 
-    <h3>Output – Test Case 1</h3>
-    <img src="output1.png" width="700" alt="Output of Test Case 1">
+        <h3>Test Case 1</h3>
+        <img src="output1.png" alt="Output Screenshot Test Case 1">
 
-    <h3>Output – Test Case 2</h3>
-    <img src="output2.png" width="700" alt="Output of Test Case 2">
+        <h3>Test Case 2</h3>
+        <img src="output2.png" alt="Output Screenshot Test Case 2">
+    </div>
 
 </body>
 </html>
